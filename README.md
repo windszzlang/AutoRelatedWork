@@ -14,7 +14,7 @@
 1. Put your OPENAI_API_KEY in the file `OPENAI_API_KEY.txt`.
 2. Configure the environment `pip install requirements.txt`.
 3. Run and generate by `python run.py`!
-4. Get output: text in `text.txt` and bibtex file in `bibtex.txt`.
+4. Get output: in `output.txt`.
 
 ## Example
 
