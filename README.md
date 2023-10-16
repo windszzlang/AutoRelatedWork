@@ -19,6 +19,7 @@
 ## Example
 
 Keyword: large language models
+
 Output file:
 ```txt
 Text:
