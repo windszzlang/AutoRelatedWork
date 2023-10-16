@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3Dcs%3Alarge%20language%20models%26id_list%3D%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=cs:large language models&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BG+cdlOzqzRtO54kUdjGW81WHuk</id>
+  <updated>2023-10-16T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">839805</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4687v2</id>
+    <updated>2011-10-07T09:50:12Z</updated>
+    <published>2011-07-23T12:56:02Z</published>
+    <title>Fence - An Efficient Parser with Ambiguity Support for Model-Driven
+  Language Specification</title>
+    <summary>  Model-based language specification has applications in the implementation of
+language processors, the design of domain-specific languages, model-driven
+software development, data integration, text mining, natural language
+processing, and corpus-based induction of models. Model-based language
+specification decouples language design from language processing and, unlike
+traditional grammar-driven approaches, which constrain language designers to
+specific kinds of grammars, it needs general parser generators able to deal
+with ambiguities. In this paper, we propose Fence, an efficient bottom-up
+parsing algorithm with lexical and syntactic ambiguity support that enables the
+use of model-based language specification in practice.
+</summary>
+    <author>
+      <name>Luis Quesada</name>
+    </author>
+    <author>
+      <name>Fernando Berzal</name>
+    </author>
+    <author>
+      <name>Francisco J. Cortijo</name>
+    </author>
+    <link href="http://arxiv.org/abs/1107.4687v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.4687v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.07486v2</id>
+    <updated>2017-03-19T18:52:15Z</updated>
+    <published>2016-12-22T08:29:25Z</published>
+    <title>Continuous multilinguality with language vectors</title>
+    <summary>  Most existing models for multilingual natural language processing (NLP) treat
+language as a discrete category, and make predictions for either one language
+or the other. In contrast, we propose using continuous vector representations
+of language. We show that these can be learned efficiently with a
+character-based neural language model, and used to improve inference about
+language varieties not seen during training. In experiments with 1303 Bible
+translations into 990 different languages, we empirically explore the capacity
+of multilingual language models, and also show that the language vectors
+capture genetic relationships between languages.
+</summary>
+    <author>
+      <name>Robert Östling</name>
+    </author>
+    <author>
+      <name>Jörg Tiedemann</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">In Proceedings of the 15th Conference of the European Chapter of the
+  Association for Computational Linguistics (EACL), Valencia, Spain, April,
+  2017</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.07486v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.07486v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.08561v1</id>
+    <updated>2016-04-28T19:10:47Z</updated>
+    <published>2016-04-28T19:10:47Z</published>
+    <title>Comparing Fifty Natural Languages and Twelve Genetic Languages Using
+  Word Embedding Language Divergence (WELD) as a Quantitative Measure of
+  Language Distance</title>
+    <summary>  We introduce a new measure of distance between languages based on word
+embedding, called word embedding language divergence (WELD). WELD is defined as
+divergence between unified similarity distribution of words between languages.
+Using such a measure, we perform language comparison for fifty natural
+languages and twelve genetic languages. Our natural language dataset is a
+collection of sentence-aligned parallel corpora from bible translations for
+fifty languages spanning a variety of language families. Although we use
+parallel corpora, which guarantees having the same content in all languages,
+interestingly in many cases languages within the same family cluster together.
+In addition to natural languages, we perform language comparison for the coding
+regions in the genomes of 12 different organisms (4 plants, 6 animals, and two
+human subjects). Our result confirms a significant high-level difference in the
+genetic language model of humans/animals versus plants. The proposed method is
+a step toward defining a quantitative measure of similarity between languages,
+with applications in languages classification, genre identification, dialect
+identification, and evaluation of translations.
+</summary>
+    <author>
+      <name>Ehsaneddin Asgari</name>
+    </author>
+    <author>
+      <name>Mohammad R. K. Mofrad</name>
+    </author>
+    <link href="http://arxiv.org/abs/1604.08561v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.08561v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.10964v2</id>
+    <updated>2022-10-21T23:10:27Z</updated>
+    <published>2022-05-22T23:58:24Z</published>
+    <title>The Geometry of Multilingual Language Model Representations</title>
+    <summary>  We assess how multilingual language models maintain a shared multilingual
+representation space while still encoding language-sensitive information in
+each language. Using XLM-R as a case study, we show that languages occupy
+similar linear subspaces after mean-centering, evaluated based on causal
+effects on language modeling performance and direct comparisons between
+subspaces for 88 languages. The subspace means differ along language-sensitive
+axes that are relatively stable throughout middle layers, and these axes encode
+information such as token vocabularies. Shifting representations by language
+means is sufficient to induce token predictions in different languages.
+However, we also identify stable language-neutral axes that encode information
+such as token positions and part-of-speech. We visualize representations
+projected onto language-sensitive and language-neutral axes, identifying
+language family and part-of-speech clusters, along with spirals, toruses, and
+curves representing token position information. These results demonstrate that
+multilingual language models encode information along orthogonal
+language-sensitive and language-neutral axes, allowing the models to extract a
+variety of features for downstream tasks and cross-lingual transfer learning.
+</summary>
+    <author>
+      <name>Tyler A. Chang</name>
+    </author>
+    <author>
+      <name>Zhuowen Tu</name>
+    </author>
+    <author>
+      <name>Benjamin K. Bergen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted to EMNLP 2022</arxiv:comment>
+    <link href="http://arxiv.org/abs/2205.10964v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.10964v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.1481v1</id>
+    <updated>2007-10-08T08:36:32Z</updated>
+    <published>2007-10-08T08:36:32Z</published>
+    <title>What's in a Name?</title>
+    <summary>  This paper describes experiments on identifying the language of a single name
+in isolation or in a document written in a different language. A new corpus has
+been compiled and made available, matching names against languages. This corpus
+is used in a series of experiments measuring the performance of general
+language models and names-only language models on the language identification
+task. Conclusions are drawn from the comparison between using general language
+models and names-only language models and between identifying the language of
+isolated names and the language of very short document fragments. Future
+research directions are outlined.
+</summary>
+    <author>
+      <name>Stasinos Konstantopoulos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Presented at the Computational Phonology Workshop, 6th Intl. Conf.
+  Recent Advances in NLP, Borovets, Bulgaria, September 2007</arxiv:comment>
+    <link href="http://arxiv.org/abs/0710.1481v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0710.1481v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.03371v1</id>
+    <updated>2022-02-07T17:40:43Z</updated>
+    <published>2022-02-07T17:40:43Z</published>
+    <title>Cedille: A large autoregressive French language model</title>
+    <summary>  Scaling up the size and training of autoregressive language models has
+enabled novel ways of solving Natural Language Processing tasks using zero-shot
+and few-shot learning. While extreme-scale language models such as GPT-3 offer
+multilingual capabilities, zero-shot learning for languages other than English
+remain largely unexplored. Here, we introduce Cedille, a large open source
+auto-regressive language model, specifically trained for the French language.
+Our results show that Cedille outperforms existing French language models and
+is competitive with GPT-3 on a range of French zero-shot benchmarks.
+Furthermore, we provide an in-depth comparison of the toxicity exhibited by
+these models, showing that Cedille marks an improvement in language model
+safety thanks to dataset filtering.
+</summary>
+    <author>
+      <name>Martin Müller</name>
+    </author>
+    <author>
+      <name>Florian Laurent</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 1 figure, 7 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.03371v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.03371v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68T50" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.2.7" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.03743v2</id>
+    <updated>2020-02-25T18:30:29Z</updated>
+    <published>2018-06-10T23:24:33Z</published>
+    <title>Are All Languages Equally Hard to Language-Model?</title>
+    <summary>  For general modeling methods applied to diverse languages, a natural question
+is: how well should we expect our models to work on languages with differing
+typological profiles? In this work, we develop an evaluation framework for fair
+cross-linguistic comparison of language models, using translated text so that
+all models are asked to predict approximately the same information. We then
+conduct a study on 21 languages, demonstrating that in some languages, the
+textual expression of the information is harder to predict with both $n$-gram
+and LSTM language models. We show complex inflectional morphology to be a cause
+of performance differences among languages.
+</summary>
+    <author>
+      <name>Ryan Cotterell</name>
+    </author>
+    <author>
+      <name>Sabrina J. Mielke</name>
+    </author>
+    <author>
+      <name>Jason Eisner</name>
+    </author>
+    <author>
+      <name>Brian Roark</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Published at NAACL 2018</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.03743v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.03743v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.04327v1</id>
+    <updated>2022-06-09T08:08:18Z</updated>
+    <published>2022-06-09T08:08:18Z</published>
+    <title>Language Identification for Austronesian Languages</title>
+    <summary>  This paper provides language identification models for low- and
+under-resourced languages in the Pacific region with a focus on previously
+unavailable Austronesian languages. Accurate language identification is an
+important part of developing language resources. The approach taken in this
+paper combines 29 Austronesian languages with 171 non-Austronesian languages to
+create an evaluation set drawn from eight data sources. After evaluating six
+approaches to language identification, we find that a classifier based on
+skip-gram embeddings reaches a significantly higher performance than alternate
+methods. We then systematically increase the number of non-Austronesian
+languages in the model up to a total of 800 languages to evaluate whether an
+increased language inventory leads to less precise predictions for the
+Austronesian languages of interest. This evaluation finds that there is only a
+minimal impact on accuracy caused by increasing the inventory of
+non-Austronesian languages. Further experiments adapt these language
+identification models for code-switching detection, achieving high accuracy
+across all 29 languages.
+</summary>
+    <author>
+      <name>Jonathan Dunn</name>
+    </author>
+    <author>
+      <name>Wikke Nijhof</name>
+    </author>
+    <link href="http://arxiv.org/abs/2206.04327v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.04327v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.07377v1</id>
+    <updated>2023-06-12T19:10:47Z</updated>
+    <published>2023-06-12T19:10:47Z</published>
+    <title>Lost in Translation: Large Language Models in Non-English Content
+  Analysis</title>
+    <summary>  In recent years, large language models (e.g., Open AI's GPT-4, Meta's LLaMa,
+Google's PaLM) have become the dominant approach for building AI systems to
+analyze and generate language online. However, the automated systems that
+increasingly mediate our interactions online -- such as chatbots, content
+moderation systems, and search engines -- are primarily designed for and work
+far more effectively in English than in the world's other 7,000 languages.
+Recently, researchers and technology companies have attempted to extend the
+capabilities of large language models into languages other than English by
+building what are called multilingual language models.
+  In this paper, we explain how these multilingual language models work and
+explore their capabilities and limits. Part I provides a simple technical
+explanation of how large language models work, why there is a gap in available
+data between English and other languages, and how multilingual language models
+attempt to bridge that gap. Part II accounts for the challenges of doing
+content analysis with large language models in general and multilingual
+language models in particular. Part III offers recommendations for companies,
+researchers, and policymakers to keep in mind when considering researching,
+developing and deploying large and multilingual language models.
+</summary>
+    <author>
+      <name>Gabriel Nicholas</name>
+    </author>
+    <author>
+      <name>Aliya Bhatia</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">50 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2306.07377v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2306.07377v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.02170v1</id>
+    <updated>2021-08-04T16:53:43Z</updated>
+    <published>2021-08-04T16:53:43Z</published>
+    <title>Curriculum learning for language modeling</title>
+    <summary>  Language Models like ELMo and BERT have provided robust representations of
+natural language, which serve as the language understanding component for a
+diverse range of downstream tasks.Curriculum learning is a method that employs
+a structured training regime instead, which has been leveraged in computer
+vision and machine translation to improve model training speed and model
+performance. While language models have proven transformational for the natural
+language processing community, these models have proven expensive,
+energy-intensive, and challenging to train. In this work, we explore the effect
+of curriculum learning on language model pretraining using various
+linguistically motivated curricula and evaluate transfer performance on the
+GLUE Benchmark. Despite a broad variety of training methodologies and
+experiments we do not find compelling evidence that curriculum learning methods
+improve language model training.
+</summary>
+    <author>
+      <name>Daniel Campos</name>
+    </author>
+    <link href="http://arxiv.org/abs/2108.02170v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2108.02170v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
