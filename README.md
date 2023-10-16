@@ -21,7 +21,53 @@
 Keyword: large language models
 Output file:
 ```txt
+Text:
 
+In the field of language modeling and processing, several significant works have been conducted. Quesada et al. proposed Fence, an efficient bottom-up parsing algorithm with lexical and syntactic ambiguity support that enables the use of model-based language specification in practice \cite{luis2011fence}. This work has applications in the implementation of language processors, the design of domain-specific languages, model-driven software development, data integration, text mining, natural language processing, and corpus-based induction of models.
+
+Östling and Tiedemann proposed using continuous vector representations of language, showing that these can be learned efficiently with a character-based neural language model \cite{robert2016continuous}. They demonstrated that these representations can improve inference about language varieties not seen during training.
+
+Asgari and Mofrad introduced a new measure of distance between languages based on word embedding, called word embedding language divergence (WELD) \cite{ehsaneddin2016comparing}. They performed language comparison for fifty natural languages and twelve genetic languages, showing that in many cases languages within the same family cluster together.
+
+Cotterell et al. developed an evaluation framework for fair cross-linguistic comparison of language models, using translated text so that all models are asked to predict approximately the same information \cite{ryan2018are}. They conducted a study on 21 languages, demonstrating that in some languages, the textual expression of the information is harder to predict with both $n$-gram and LSTM language models.
+
+Bibtex:
+
+@misc{luis2011fence,
+    title={Fence - An Efficient Parser with Ambiguity Support for Model-Driven\n  Language Specification}, 
+    author={Luis Quesada, Fernando Berzal, Francisco J. Cortijo}, 
+    year={2011},
+    eprint={1107.4687v2},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+
+@misc{robert2016continuous,
+    title={Continuous multilinguality with language vectors}, 
+    author={Robert Östling, Jörg Tiedemann}, 
+    year={2016},
+    eprint={1612.07486v2},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+
+@misc{ehsaneddin2016comparing,
+    title={Comparing Fifty Natural Languages and Twelve Genetic Languages Using\n  Word Embedding Language Divergence (WELD) as a Quantitative Measure of\n  Language Distance}, 
+    author={Ehsaneddin Asgari, Mohammad R. K. Mofrad}, 
+    year={2016},
+    eprint={1604.08561v1},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+
+@misc{ryan2018are,
+    title={Are All Languages Equally Hard to Language-Model?}, 
+    author={Ryan Cotterell, Sabrina J. Mielke, Jason Eisner, Brian Roark}, 
+    year={2018},
+    eprint={1806.03743v2},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
 ```
 
 ## Acknowledgements
